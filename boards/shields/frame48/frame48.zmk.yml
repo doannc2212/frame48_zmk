@@ -1,0 +1,11 @@
+file_format: "1"
+id: frame48
+name: Frame48
+type: shield
+url: https://github.com/doannc2212/frame48_zmk.git
+requires: [nice_nano_v2]
+features:
+  - keys
+siblings:
+  - frame48_left
+  - frame48_right

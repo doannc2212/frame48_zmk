@@ -1,0 +1,5 @@
+config SHIELD_FRAME48_LEFT
+    def_bool $(shields_list_contains,frame48_left)
+
+config SHIELD_FRAME48_RIGHT
+    def_bool $(shields_list_contains,frame48_right)

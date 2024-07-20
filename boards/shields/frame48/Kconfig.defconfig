@@ -1,0 +1,23 @@
+if SHIELD_FRAME48_LEFT
+
+    config ZMK_KEYBOARD_NAME
+        default "Frame48 (Left)"
+
+    config ZMK_SPLIT_BLE_ROLE_CENTRAL
+        default y
+
+endif
+
+if SHIELD_FRAME48_RIGHT
+
+    config ZMK_KEYBOARD_NAME
+        default "Frame48 (Right)"
+
+endif
+
+if SHIELD_FRAME48_LEFT || SHIELD_FRAME48_RIGHT
+
+    config ZMK_SPLIT
+        default y
+
+endif
